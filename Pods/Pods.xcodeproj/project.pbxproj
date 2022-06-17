@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3862888EA7DA30731E4EFCD05F4D5260 /* QAPM */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 579920980D3B22B0B9BB8F891FA96AEE /* Build configuration list for PBXAggregateTarget "QAPM" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1CD96836BBA2FA20E1240E5F6773020A /* PBXTargetDependency */,
+			);
+			name = QAPM;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9A5CE5A1B6B57E3743D292838700165B /* qapm.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9E821D016A44ADFDF2073377D44896E4 /* qapm.cer */; };
+		BB129904DBFF2F6F9F3F80111551E5EF /* sngapm.cer in Resources */ = {isa = PBXBuildFile; fileRef = 782BC6A1CD8DBFF43E3E14BBB8434602 /* sngapm.cer */; };
+		FE9F1F0FEF1D0815A3DC431B4BF17F63 /* Pods-CrashReportDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1DBE0CA14210B2E687170B3E9714C2 /* Pods-CrashReportDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE2EFDCCE564A8F841D8D24982097E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DD82B82A9834AADC874564E914C1353;
+			remoteInfo = "QAPM-QAPM";
+		};
+		9A07986C35D133FF5289764AA19A3A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3862888EA7DA30731E4EFCD05F4D5260;
+			remoteInfo = QAPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1DBE0CA14210B2E687170B3E9714C2 /* Pods-CrashReportDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashReportDemo-dummy.m"; sourceTree = "<group>"; };
+		1BCCCA557D226CE1C2B7B85E111FB00B /* Pods-CrashReportDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashReportDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		248FE89E1D390820C02A786212F22E8C /* Pods-CrashReportDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashReportDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		33FA8A62F11D3CC50F76D4D9290D7316 /* Pods-CrashReportDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashReportDemo.release.xcconfig"; sourceTree = "<group>"; };
+		40DC2DF2A45CFAE45AE211C23F89C8DC /* Pods-CrashReportDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashReportDemo-resources.sh"; sourceTree = "<group>"; };
+		456558E5C3F58648C2D1510DC294F736 /* Pods-CrashReportDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-CrashReportDemo"; path = "libPods-CrashReportDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C4040F2709277C7D218D45328385DC /* QAPM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QAPM.framework; sourceTree = "<group>"; };
+		6AD576FD1B55B6662CF82EDC9F040B7C /* ResourceBundle-QAPM-QAPM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QAPM-QAPM-Info.plist"; sourceTree = "<group>"; };
+		74EC320D12B9BC688CE9C063980A5892 /* QAPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAPM.debug.xcconfig; sourceTree = "<group>"; };
+		782BC6A1CD8DBFF43E3E14BBB8434602 /* sngapm.cer */ = {isa = PBXFileReference; includeInIndex = 1; name = sngapm.cer; path = QAPM.framework/QAPM.bundle/sngapm.cer; sourceTree = "<group>"; };
+		95CF913D885580AC49480531399734AC /* js_sdk.js */ = {isa = PBXFileReference; includeInIndex = 1; name = js_sdk.js; path = QAPM.framework/js_sdk.js; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E821D016A44ADFDF2073377D44896E4 /* qapm.cer */ = {isa = PBXFileReference; includeInIndex = 1; name = qapm.cer; path = QAPM.framework/QAPM.bundle/qapm.cer; sourceTree = "<group>"; };
+		B54CE31966DF219C5ED63695433D9CB3 /* QAPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAPM.release.xcconfig; sourceTree = "<group>"; };
+		CAE7AAAF9A27A1EED33E408FE90D3FE3 /* QAPM-QAPM */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QAPM-QAPM"; path = QAPM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2AFA15BB9A557A2E27C9CF751C4B88 /* Pods-CrashReportDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashReportDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD9F59DE24316F336D56071AB0E799F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C5B429B7379AF10054B15488AAAECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC4EE87CFA88BF04419D6ADC7CC4F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456558E5C3F58648C2D1510DC294F736 /* Pods-CrashReportDemo */,
+				CAE7AAAF9A27A1EED33E408FE90D3FE3 /* QAPM-QAPM */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396B8912A48BB1BA6B36346095EF91FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74EC320D12B9BC688CE9C063980A5892 /* QAPM.debug.xcconfig */,
+				B54CE31966DF219C5ED63695433D9CB3 /* QAPM.release.xcconfig */,
+				6AD576FD1B55B6662CF82EDC9F040B7C /* ResourceBundle-QAPM-QAPM-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QAPM";
+			sourceTree = "<group>";
+		};
+		6CF8F1BF7ED55C15262D6CD2910972EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95CF913D885580AC49480531399734AC /* js_sdk.js */,
+				9E821D016A44ADFDF2073377D44896E4 /* qapm.cer */,
+				782BC6A1CD8DBFF43E3E14BBB8434602 /* sngapm.cer */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8268544E90F606602877361699FA521F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C4040F2709277C7D218D45328385DC /* QAPM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D7AF4A855D3FA41FD9A1232BE5AA78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1A80CB86CAC8DD58BDDE46944EBCADC /* QAPM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1A80CB86CAC8DD58BDDE46944EBCADC /* QAPM */ = {
+			isa = PBXGroup;
+			children = (
+				8268544E90F606602877361699FA521F /* Frameworks */,
+				6CF8F1BF7ED55C15262D6CD2910972EE /* Resources */,
+				396B8912A48BB1BA6B36346095EF91FF /* Support Files */,
+			);
+			name = QAPM;
+			path = QAPM;
+			sourceTree = "<group>";
+		};
+		CC66F0E9AF5C888A2DEED8DB40A7523E /* Pods-CrashReportDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1BCCCA557D226CE1C2B7B85E111FB00B /* Pods-CrashReportDemo-acknowledgements.markdown */,
+				248FE89E1D390820C02A786212F22E8C /* Pods-CrashReportDemo-acknowledgements.plist */,
+				0F1DBE0CA14210B2E687170B3E9714C2 /* Pods-CrashReportDemo-dummy.m */,
+				40DC2DF2A45CFAE45AE211C23F89C8DC /* Pods-CrashReportDemo-resources.sh */,
+				CD2AFA15BB9A557A2E27C9CF751C4B88 /* Pods-CrashReportDemo.debug.xcconfig */,
+				33FA8A62F11D3CC50F76D4D9290D7316 /* Pods-CrashReportDemo.release.xcconfig */,
+			);
+			name = "Pods-CrashReportDemo";
+			path = "Target Support Files/Pods-CrashReportDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				93D7AF4A855D3FA41FD9A1232BE5AA78 /* Pods */,
+				0CC4EE87CFA88BF04419D6ADC7CC4F65 /* Products */,
+				FD72A9954897A16ACAD92BCD0CE83C16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD72A9954897A16ACAD92BCD0CE83C16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC66F0E9AF5C888A2DEED8DB40A7523E /* Pods-CrashReportDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		817EC81F42A99F93ABBC6D9AEE2B3AF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DD82B82A9834AADC874564E914C1353 /* QAPM-QAPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AD3E27C4FBD0631311ADF907F01743 /* Build configuration list for PBXNativeTarget "QAPM-QAPM" */;
+			buildPhases = (
+				2216E171316E33A4864D4734FB35DF02 /* Sources */,
+				4FD9F59DE24316F336D56071AB0E799F /* Frameworks */,
+				D87559003715CDE17F448207F52D1F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QAPM-QAPM";
+			productName = QAPM;
+			productReference = CAE7AAAF9A27A1EED33E408FE90D3FE3 /* QAPM-QAPM */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DD0D2263110F2164DC851C25E3FE54AB /* Pods-CrashReportDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7166390A1B1877A38D142046720C2E2D /* Build configuration list for PBXNativeTarget "Pods-CrashReportDemo" */;
+			buildPhases = (
+				817EC81F42A99F93ABBC6D9AEE2B3AF1 /* Headers */,
+				A87C365ADC1E9F67888B675796442BEF /* Sources */,
+				E6C5B429B7379AF10054B15488AAAECA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742C017AA65779C686353D80F85BBBC8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrashReportDemo";
+			productName = "Pods-CrashReportDemo";
+			productReference = 456558E5C3F58648C2D1510DC294F736 /* Pods-CrashReportDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0CC4EE87CFA88BF04419D6ADC7CC4F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0D2263110F2164DC851C25E3FE54AB /* Pods-CrashReportDemo */,
+				3862888EA7DA30731E4EFCD05F4D5260 /* QAPM */,
+				6DD82B82A9834AADC874564E914C1353 /* QAPM-QAPM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87559003715CDE17F448207F52D1F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5CE5A1B6B57E3743D292838700165B /* qapm.cer in Resources */,
+				BB129904DBFF2F6F9F3F80111551E5EF /* sngapm.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2216E171316E33A4864D4734FB35DF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C365ADC1E9F67888B675796442BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9F1F0FEF1D0815A3DC431B4BF17F63 /* Pods-CrashReportDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CD96836BBA2FA20E1240E5F6773020A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QAPM-QAPM";
+			target = 6DD82B82A9834AADC874564E914C1353 /* QAPM-QAPM */;
+			targetProxy = 1EE2EFDCCE564A8F841D8D24982097E2 /* PBXContainerItemProxy */;
+		};
+		742C017AA65779C686353D80F85BBBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QAPM;
+			target = 3862888EA7DA30731E4EFCD05F4D5260 /* QAPM */;
+			targetProxy = 9A07986C35D133FF5289764AA19A3A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54F8DDF15C2C2D12B36DDE9BA063154E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54CE31966DF219C5ED63695433D9CB3 /* QAPM.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAPM";
+				IBSC_MODULE = QAPM;
+				INFOPLIST_FILE = "Target Support Files/QAPM/ResourceBundle-QAPM-QAPM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QAPM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5A360B5F1CE53A9A8C9495AEFA081CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FA8A62F11D3CC50F76D4D9290D7316 /* Pods-CrashReportDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C17F9CB112EFC41038C220C5799DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EC320D12B9BC688CE9C063980A5892 /* QAPM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C48CB41F8B3BB6553E26F2FFFCFD5105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EC320D12B9BC688CE9C063980A5892 /* QAPM.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAPM";
+				IBSC_MODULE = QAPM;
+				INFOPLIST_FILE = "Target Support Files/QAPM/ResourceBundle-QAPM-QAPM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QAPM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C6CF99CFD99D259CB5F0498982FF041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2AFA15BB9A557A2E27C9CF751C4B88 /* Pods-CrashReportDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2FFC55AF9E6C1F623AE62E687DE2664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54CE31966DF219C5ED63695433D9CB3 /* QAPM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579920980D3B22B0B9BB8F891FA96AEE /* Build configuration list for PBXAggregateTarget "QAPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C17F9CB112EFC41038C220C5799DCAD /* Debug */,
+				D2FFC55AF9E6C1F623AE62E687DE2664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7166390A1B1877A38D142046720C2E2D /* Build configuration list for PBXNativeTarget "Pods-CrashReportDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CF99CFD99D259CB5F0498982FF041A /* Debug */,
+				5A360B5F1CE53A9A8C9495AEFA081CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AD3E27C4FBD0631311ADF907F01743 /* Build configuration list for PBXNativeTarget "QAPM-QAPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48CB41F8B3BB6553E26F2FFFCFD5105 /* Debug */,
+				54F8DDF15C2C2D12B36DDE9BA063154E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

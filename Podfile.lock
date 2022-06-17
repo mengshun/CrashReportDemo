@@ -1,0 +1,16 @@
+PODS:
+  - QAPM (5.1.61)
+
+DEPENDENCIES:
+  - QAPM
+
+SPEC REPOS:
+  https://github.com/TencentCloud/QAPM-iOS-CocoaPods.git:
+    - QAPM
+
+SPEC CHECKSUMS:
+  QAPM: 4a3b0628b13e7fd24383036734a29249fdecc97d
+
+PODFILE CHECKSUM: b1f57eb5a1f0d653bded76fb29fca5ed5564cfea
+
+COCOAPODS: 1.11.3

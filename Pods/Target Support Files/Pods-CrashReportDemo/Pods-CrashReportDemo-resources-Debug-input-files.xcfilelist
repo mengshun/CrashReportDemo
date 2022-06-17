@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CrashReportDemo/Pods-CrashReportDemo-resources.sh
+${PODS_ROOT}/QAPM/QAPM.framework/js_sdk.js
+${PODS_CONFIGURATION_BUILD_DIR}/QAPM/QAPM.bundle
